@@ -3,6 +3,7 @@ const mobileNav = () => {
     const mobileNav = document.querySelector('.mobile-nav')
     const mobileMenuToggle = document.querySelector('.mobile-nav__toggle')
     const mobileLinks = document.querySelectorAll('.mobile-nav__link')
+    const sunBtn = document.querySelectorAll(".theme-")
     
     headerMenuBtn.addEventListener("click" , () => {
         mobileNav.style.display = 'flex'
@@ -12,6 +13,7 @@ const mobileNav = () => {
     })
 
     mobileMenuToggle.addEventListener("click", () => {
+        document.body.style.overflowY = 'auto'
         mobileNav.style.display = 'none'
         headerMenuBtn.classList.remove('hide-Display')
         mobileMenuToggle.classList.remove('show-Display')

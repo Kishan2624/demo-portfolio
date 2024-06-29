@@ -8,13 +8,16 @@ import '../styles/components/work.css'
 import '../styles/components/contact.css'
 import '../styles/components/footer.css'
 import '../styles/components/mobile-nav.css'
+import '../styles/components/top-btn.css'
 import '../styles/utils.css'
 
 
 import mobileNav from './utils/mobile-nav'
 import darkMode from './utils/dark-mode'
 import lazyLoading from './utils/lazy-loading'
+import scrollUp from './utils/scrollUp'
 
 mobileNav();
 darkMode();
 lazyLoading();
+scrollUp();
